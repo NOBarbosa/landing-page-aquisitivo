@@ -1,0 +1,55 @@
+.home {
+  max-width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+  }
+
+  /* Botão básico */
+  .button {
+    background-color: #4caf50; /* Verde */
+    width: 350px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Cantos arredondados */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+
+  /* Efeito hover */
+  .button:hover {
+    background-color: #45a049; /* Cor um pouco mais escura */
+    transform: scale(1.05); /* Aumenta um pouco o botão */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Sombra um pouco maior */
+  }
+
+  /* Efeito ativo (quando o botão é clicado) */
+  .button:active {
+    background-color: #3e8e41; /* Cor mais escura */
+    transform: scale(0.98); /* Diminui um pouco o botão */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra menor */
+  }
+
+  /* Foco acessível */
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.5); /* Sombra de foco */
+  }
+}
