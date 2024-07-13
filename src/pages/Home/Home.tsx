@@ -9,12 +9,12 @@ export function Home() {
       <h4>@aquisitivo</h4>
 
       <button className={s.button}>
-        <a href="onlyfans.com/aquisitivo" target="_blank">
+        <a href="https://onlyfans.com/aquisitivo" target="_blank">
           Onlyfans
         </a>
       </button>
       <button className={s.button}>
-        <a href="privacy.com.br/profile/aquisitivo" target="_blank">
+        <a href="https://privacy.com.br/checkout/aquisitivo" target="_blank">
           Privacy
         </a>
       </button>
