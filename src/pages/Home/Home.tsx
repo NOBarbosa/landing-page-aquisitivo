@@ -9,15 +9,25 @@ export function Home() {
       <h2>Treinador</h2>
 
       <button className={s.button}>
-        <a href="">Onlyfans</a>
+        <a href="onlyfans.com/aquisitivo" target="_blank">
+          Onlyfans
+        </a>
       </button>
       <button className={s.button}>
-        <a href="">Privacy</a>
+        <a href="privacy.com.br/profile/aquisitivo" target="_blank">
+          Privacy
+        </a>
       </button>
       <button className={s.button}>
-        <a href="">Instagram</a>
+        <a href="https://www.instagram.com/aquisitivo/" target="_blank">
+          Instagram
+        </a>
       </button>
-      <button className={s.button}>X</button>
+      <button className={s.button}>
+        <a href="https://x.com/aquisitivo" target="_blank">
+          X
+        </a>
+      </button>
 
       <footer>© Aquisitivo. Todos os Direitos Reservados.</footer>
     </main>
