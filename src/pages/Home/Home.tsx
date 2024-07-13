@@ -5,8 +5,8 @@ export function Home() {
   return (
     <main className={s.home}>
       <img src={aquisi} alt="foto-do-aquisitivo" />
-      <h1>@Aquisitivo</h1>
-      <h2>Treinador</h2>
+      <h1>Treinador</h1>
+      <h4>@aquisitivo</h4>
 
       <button className={s.button}>
         <a href="onlyfans.com/aquisitivo" target="_blank">
