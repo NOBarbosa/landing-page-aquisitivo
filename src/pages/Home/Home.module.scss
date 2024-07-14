@@ -8,17 +8,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  .imgContainer {
+    margin: 32px 0 16px 0;
+  }
   img {
     width: 170px;
     height: 170px;
     border-radius: 50%;
   }
 
+  h4 {
+    margin-bottom: 16px;
+  }
+
   /* Botão básico */
   .button {
     background-color: #4caf50; /* Verde */
-    width: 350px;
+    width: 80%;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -51,5 +57,21 @@
   .button:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.5); /* Sombra de foco */
+  }
+  .icons {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    a {
+      cursor: pointer;
+    }
+  }
+  .footer {
+    width: 100%;
+    margin-top: 54px;
+
+    text-align: center;
   }
 }
