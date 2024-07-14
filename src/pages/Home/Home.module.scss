@@ -59,11 +59,12 @@
     box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.5); /* Sombra de foco */
   }
   .icons {
+    width: 100%;
     margin-top: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
     a {
       cursor: pointer;
     }
