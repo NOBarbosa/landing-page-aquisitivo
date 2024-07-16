@@ -46,7 +46,10 @@ export function Home() {
         <a href="https://www.instagram.com/aquisitivo/" target="_blank">
           <InstagramLogo size={32} />
         </a>
-        <a href="https://www.tiktok.com/@onlyaquisitivo" target="_blank">
+        <a
+          href="https://www.tiktok.com/@aquisitiv?_t=8o4fThLVJGX&_r=1"
+          target="_blank"
+        >
           <TiktokLogo size={32} />
         </a>
         <a href="https://www.youtube.com/aquisitivo" target="_blank">
