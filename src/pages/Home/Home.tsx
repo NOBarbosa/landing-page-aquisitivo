@@ -1,6 +1,11 @@
 import s from "./Home.module.scss";
 import aquisi from "../../assets/aquisi.jpg";
-import { InstagramLogo, TiktokLogo, XLogo } from "@phosphor-icons/react";
+import {
+  InstagramLogo,
+  TiktokLogo,
+  XLogo,
+  YoutubeLogo,
+} from "@phosphor-icons/react";
 
 export function Home() {
   return (
@@ -10,6 +15,15 @@ export function Home() {
       </div>
       <h1>Treinador</h1>
       <h4>@aquisitivo</h4>
+      <a
+        className={s.button}
+        href={
+          "https://api.whatsapp.com/send/?phone=5571983922955&text&type=phone_number&app_absent=0"
+        }
+        target="_blank"
+      >
+        Consultoria
+      </a>
       <a
         className={s.button}
         href={"https://onlyfans.com/aquisitivo"}
@@ -44,6 +58,9 @@ export function Home() {
         </a>
         <a href="https://www.tiktok.com/@onlyaquisitivo" target="_blank">
           <TiktokLogo size={32} />
+        </a>
+        <a href="https://www.youtube.com/aquisitivo" target="_blank">
+          <YoutubeLogo size={32} />
         </a>
       </div>
 
