@@ -38,16 +38,6 @@ export function Home() {
       >
         Privacy
       </a>
-      <a
-        href="https://www.instagram.com/aquisitivo/"
-        target="_blank"
-        className={s.button}
-      >
-        Instagram
-      </a>
-      <a href="https://x.com/aquisitivo" target="_blank" className={s.button}>
-        X
-      </a>
 
       <div className={s.icons}>
         <a href="https://x.com/aquisitivo" target="_blank">
